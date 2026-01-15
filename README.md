@@ -76,13 +76,16 @@ Collect raw weather data from an external API and store it securely in AWS S3.
 🔧 Steps
 
 Create S3 Bucket
+
 weather-data-project-<unique-id>
 
 
 Create folders
 
 bronze/   # raw JSON data
+
 silver/   # cleaned data
+
 gold/     # aggregated data
 
 
