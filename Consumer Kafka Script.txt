@@ -1,0 +1,8 @@
+from kafka import KafkaConsumer
+import boto3
+
+consumer = KafkaConsumer('weather_topic', bootstrap_servers=['localhost:9092'])
+
+for message in consumer:
+    data = message.value
+    # Use your boto3 code from Stage 1 to upload 'data' to S3!
