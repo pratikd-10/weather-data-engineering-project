@@ -9,28 +9,20 @@ This project is designed to simulate a real-world production pipeline while work
 📌 Project Architecture
 Weather API
    ↓
-   
 Kafka Producer (Python)
    ↓
-   
 Kafka Topic
    ↓
-   
 Kafka Consumer (Python)
    ↓
-   
 AWS S3 (Bronze Layer)
    ↓
-   
 Databricks (Spark Processing)
    ↓
-   
 Silver Layer (Cleaned Data)
    ↓
-   
 Gold Layer (Aggregated Data)
    ↓
-   
 SQL Analytics & Visualization
 
 
